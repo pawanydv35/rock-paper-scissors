@@ -115,7 +115,7 @@ rock = Button(root, width=20, height=2, font=("Arial", 10, "bold"), text="ROCK",
               bg="#FF3E4D", fg="white", command=lambda: updateChoice("rock"))
 rock.grid(row=2, column=1, padx=10, pady=10)
 paper = Button(root, width=20, height=2, font=("Arial", 10, "bold"), text="PAPER",
-              bg="#6B3EFFC2", fg="white", command=lambda: updateChoice("paper"))
+              bg="#6B3EFF", fg="white", command=lambda: updateChoice("paper"))
 paper.grid(row=2, column=2, padx=10, pady=10)
 scissor = Button(root, width=20, height=2, font=("Arial", 10, "bold"), text="SCISSOR",
               bg="#3EFFAF", fg="white", command=lambda: updateChoice("scissor"))
