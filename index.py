@@ -9,12 +9,12 @@ root.title("Rock Paper Scissors")
 root.configure(background="#9b59b6")
 
 
-rock_img = ImageTk.PhotoImage(Image.open("rock-user.png"))
-paper_img = ImageTk.PhotoImage(Image.open("paper-user.png"))
-scissor_img = ImageTk.PhotoImage(Image.open("scissors-user.png"))
-rock_img_comp = ImageTk.PhotoImage(Image.open("rock.png"))
-paper_img_comp = ImageTk.PhotoImage(Image.open("paper.png"))
-scissor_img_comp = ImageTk.PhotoImage(Image.open("scissors.png"))
+rock_img = ImageTk.PhotoImage(Image.open("rock-user.jpg"))
+paper_img = ImageTk.PhotoImage(Image.open("paper-user.jpg"))
+scissor_img = ImageTk.PhotoImage(Image.open("scissor-user.jpg"))
+rock_img_comp = ImageTk.PhotoImage(Image.open("rock.jpg"))
+paper_img_comp = ImageTk.PhotoImage(Image.open("paper.jpg"))
+scissor_img_comp = ImageTk.PhotoImage(Image.open("scissors.jpg"))
 
 
 user_score = 0
